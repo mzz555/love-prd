@@ -1,0 +1,151 @@
+{
+  "result": "STATIC_CHECKS_PASSED_TECHNICAL_DECISION_PENDING",
+  "version": "V0.3",
+  "source_head": "4a4ade265101a4fe98d2586c19ddb5cf20cf3c9f",
+  "all_changed_cells_accounted_for": 102,
+  "tag_changes": 5,
+  "expected_value_changes": 27,
+  "expected_count_before": 2925,
+  "expected_count_after": 2925,
+  "expected_rule_count": 2802,
+  "expected_judgment_count": 123,
+  "evidence_count_before": 157,
+  "evidence_count_after": 157,
+  "quotes_verified": 157,
+  "score_expectations_checked": 168,
+  "domain_expectations_checked": 2016,
+  "source_answer_and_scale_changes": 0,
+  "formal_reviewed_N": 175,
+  "release_status": "hold",
+  "human_signoff_written": false,
+  "engine_run": false,
+  "P12_M05": "source_verification_blocked_not_applied",
+  "technical_final_decision": "pending",
+  "scope": "Public summary only; no participant answer text or per-answer time/privacy choices.",
+  "product_review": "Product states other pending product-review sections have been read and authorizes submission; formal independent signoff is not recorded.",
+  "package": {
+    "filename": "CORE_第二轮七对_裁决修订候选包_V0.3_20261027.zip",
+    "bytes": 763645,
+    "sha256": "0ebe0e5f0bb46a8a16d71e29e7645369e022b53ed035e972447b175361325002",
+    "member_count": 16,
+    "public_repository_upload": false
+  },
+  "files": [
+    {
+      "pair": "P11",
+      "file": "P11_预标注_V0.3_20261027.xlsx",
+      "bytes": 50536,
+      "sha256": "490a760d8a25c6156d6f7cf62f8d37ac91a4d64a6308a23aeda6e7da06ca396a",
+      "baseline_sha256": "c4831319a1aa424158ea63dbad66c78a3400d12a347ed59143fd0f19a5ec0d0b",
+      "expected_count": 403
+    },
+    {
+      "pair": "P12",
+      "file": "P12_预标注_V0.3_20261027.xlsx",
+      "bytes": 44182,
+      "sha256": "3f7af739b6f25c3ca4d39ffc997097ec96183fb89684ddf76a281a9a7858bbb8",
+      "baseline_sha256": "91be7a4b9e4578bb717380eccd437c6146d7812f5e61a981808a2dc8dd52ce8a",
+      "expected_count": 364
+    },
+    {
+      "pair": "P13",
+      "file": "P13_预标注_V0.3_20261027.xlsx",
+      "bytes": 45423,
+      "sha256": "cf2fe21c7a596385317f810ac466ed2719d225b3057b403cf5504ffb8853a600",
+      "baseline_sha256": "aac780f03be64bd734fee79757b2d0ec82d595eb1cb27deab6518d7117e7d8e4",
+      "expected_count": 364
+    },
+    {
+      "pair": "P14",
+      "file": "P14_预标注_V0.3_20261027.xlsx",
+      "bytes": 68411,
+      "sha256": "eadcfaf926bcc68a840b3acc6606961e7d77e71ac5eba46de8eab841f6495ac0",
+      "baseline_sha256": "0f3ab4be2aae51e5a0790810c07f4112af22bba546f1424d28e40ac912ee675e",
+      "expected_count": 550
+    },
+    {
+      "pair": "P16",
+      "file": "P16_预标注_V0.3_20261027.xlsx",
+      "bytes": 48332,
+      "sha256": "a45a7af8c924c8648310f0d93b6e35d0258d58dbf243f3f70ba0a6ff1850e65c",
+      "baseline_sha256": "12a22eb7513de072c67bbb5f19006da37d36c639def13b2c6fbed47945c03ffa",
+      "expected_count": 403
+    },
+    {
+      "pair": "P17",
+      "file": "P17_预标注_V0.3_20261027.xlsx",
+      "bytes": 46491,
+      "sha256": "e2eda081573870a620b10f16b85b80b47624603af2da9a197f9634c129428e7b",
+      "baseline_sha256": "17e24756e375795198b6e717d126b8b6ba5f5f646a074cac66316a578bc53be8",
+      "expected_count": 371
+    },
+    {
+      "pair": "P18",
+      "file": "P18_预标注_V0.3_20261027.xlsx",
+      "bytes": 59049,
+      "sha256": "757fdcd9a14aabe8e7eeb5ab606e2bebfae61b0ffc3a406f6dcb399cff15964a",
+      "baseline_sha256": "c1d10d8e6f1ef173f3e2c50b629c6d7e968f3a554bc5c9272265bf8d128ce160",
+      "expected_count": 470
+    }
+  ],
+  "items": {
+    "M01": {
+      "status": "已实施",
+      "minimum_expected_ids": [
+        "P17-X014",
+        "P17-X040",
+        "P17-X066",
+        "P17-X098",
+        "P17-X124",
+        "P17-X150",
+        "P17-X182",
+        "P17-X208",
+        "P17-X266",
+        "P17-X292"
+      ],
+      "gap_expected_ids": [
+        "P17-X337",
+        "P17-X339",
+        "P17-X340",
+        "P17-X342",
+        "P17-X343",
+        "P17-X345",
+        "P17-X346",
+        "P17-X348"
+      ]
+    },
+    "M02": {
+      "status": "已实施",
+      "sources": [
+        "P13-A-E006",
+        "P14-A-E011",
+        "P14-B-E020"
+      ],
+      "expected_values_changed": 0
+    },
+    "M03": {
+      "status": "维持不变",
+      "context_group": null,
+      "pair_status": "pending"
+    },
+    "M04": {
+      "status": "已实施",
+      "expected_ids": [
+        "P16-X027",
+        "P16-X053",
+        "P16-X079",
+        "P16-X111",
+        "P16-X137",
+        "P16-X163",
+        "P16-X195",
+        "P16-X221",
+        "P16-X247"
+      ]
+    },
+    "M05": {
+      "status": "来源核实阻塞 待技术最终决策",
+      "answer_changed": false,
+      "block_formal_test_for_P12": true
+    }
+  }
+}
